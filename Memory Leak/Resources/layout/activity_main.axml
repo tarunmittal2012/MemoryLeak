@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+		android:orientation="vertical">
+	<TextView 
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Used Memory"
+		android:textSize="24sp"
+		android:id="@+id/used_memory"
+		android:layout_marginBottom="20dp"
+		android:gravity="center_horizontal"/>
+		<TextView 
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Free Memory"
+		android:layout_marginBottom="20dp"
+		android:textSize="24sp"
+		android:id="@+id/free_memory"
+		android:gravity="center_horizontal"/>
+
+		<TextView 
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Heap Memory"
+		android:textSize="24sp"
+		android:layout_marginBottom="20dp"
+		android:id="@+id/heap_memory"
+		android:gravity="center_horizontal"/>
+
+		<TextView 
+		android:layout_marginBottom="20dp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Max Memory"
+		android:textSize="24sp"
+		android:id="@+id/max_memory"
+		android:gravity="center_horizontal"/>
+
+		<TextView 
+		android:layout_marginBottom="20dp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Heap Usage"
+		android:textSize="24sp"
+		android:id="@+id/heap_usage"
+		android:gravity="center_horizontal"/>
+
+		<TextView 
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Total Usage"
+		android:textSize="24sp"
+		android:id="@+id/total_usage"
+		android:gravity="center_horizontal"/>
+
+		<Button 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Refresh"
+		android:layout_marginTop="20dp"
+		android:layout_gravity="center_horizontal"
+		android:id="@+id/refresh_button"
+		android:gravity="center"/>
+		</LinearLayout>
+</LinearLayout>
